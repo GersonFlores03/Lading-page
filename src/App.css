@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --CabeceraColor: #E5E7EB;
+  --SecondColor: #1F2937;
+  --ThreeColor: #F9FAF8;
+  --HeroColorText: #E5E7EB;
+  --ButtonColorr: #3882f6;
+  --InfomacionHeader: #1F2937;
+}
+
+body{
+ font-style: italic;
+}
+
+.Cuadrado {
+  background-color: var(--ThreeColor);
+  border: 4px solid var(--ButtonColorr);
+  border-radius: 8px;
+}
+
+.Cabecera {
+  background-color: var(--SecondColor);
+}
+.Container_Principal{
+  background-color: var(--ThreeColor);
+}
+.Container_Phrase{
+  background-color: var(--CabeceraColor);
+}
+.SingupContainer{
+  background-color: var(--ButtonColorr);
+  border-radius: 8px;
+
+}
+
+.Sing-Up{
+  color: var(--ThreeColor);
+}
+.FooterEnd{
+  background-color: var(--SecondColor);
+}
+
+.NavOne{
+  color: var(--ThreeColor);
+}
+.NavTwo{
+  color: grey;
+}
+.Title{
+  color: var(--ThreeColor);
+}
+.Parrafo{
+  color: grey;
+}
+
+.ImgDog{
+  height: 100%;
+  object-fit: cover;
+}
+.BotonMod{
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: var(--ButtonColorr);
+}
+.BotonModTwo{
+  width: 90px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: var(--ButtonColorr);
+  border: solid 2px var(--ThreeColor);
+}
+
+
+.ButonPhrase{
+  width: 80px;
+  height: 50px;
+  background-color: var(--ButtonColorr);
+  border-radius: 8px;
+  border: solid 2px var(--ThreeColor);
+}
+
+.TextFinal{
+  color: var(--ThreeColor);
+}
